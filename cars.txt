@@ -1,0 +1,15 @@
+Nome tabella : cars;
+
+id: BIGINT - PRIMARY_KEY(NOTNULL, UNIQUE, AUTOINCREMENT, INDEX)
+modello: VARCHAR(40)-NOTNULL
+marca: VARCHAR(40)-NOTNULL
+tipo: VARCHAR(15)-NULL
+cilindrata: FLOAT(1,1)-NULL
+cavalli:SMALLINT-NOTNULL
+full_optional: TINYINT-NOTNULL
+costo: MEDIUMINT-NOTNULL
+chilometri_percorsi:MEDIUMINT-NOTNULL
+numero_telaio: VARCHAR(20)-NULL
+data_immatricolazione: DATE-NOTNULL
+anno_uscita: YEAR-NULL
+descrizione_veicolo: TEXT-NULL
